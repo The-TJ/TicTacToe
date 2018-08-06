@@ -188,20 +188,7 @@ public class Tictac {
 	}
 	} 
 	//Function that prints the board whenever it's called
-	public void printboard(char game[])
-	{
-		System.out.println("  "+'|'+"   "+'|');
-		System.out.println(" "+game[0]+'|'+" "+game[1]+" "+'|'+" "+game[2]);
-		System.out.println("  "+'|'+"   "+'|');
-		System.out.println("---------");
-		System.out.println("  "+'|'+"   "+'|');
-		System.out.println(" "+game[3]+'|'+" "+game[4]+" "+'|'+" "+game[5]);
-		System.out.println("  "+'|'+"   "+'|');
-	    System.out.println("---------");
-		System.out.println("  "+'|'+"   "+'|');
-		System.out.println(" "+game[6]+'|'+" "+game[7]+" "+'|'+" "+game[8]);
-		System.out.println("  "+'|'+"   "+'|');
-	}
+	
 	//This is the AI that makes the move of Computer when the computer plays as 'X'
 	public void computers_Chance(char game2[], char comp)
 	{
