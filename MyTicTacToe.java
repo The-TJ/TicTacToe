@@ -1,7 +1,6 @@
 /*Author - Tanmay Joshi
 Program that plays TicTacToe*/
-import java.io.*;
-import java.util.Random;
+
 public class Tictac {
 	public static boolean con1=true;
 	public static boolean con2=true;
